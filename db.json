@@ -1,6 +1,6 @@
-  [
+{
+    "empresas": [
       {
-        "id": 1,
         "cnpj": "12.345.678/0001-90",
         "cliente": true,
         "valoresAVencer": "10000",
@@ -9,13 +9,12 @@
       },
   
       {
-        "id": 2,
         "cnpj": "98.765.432/0001-21",
         "cliente": false,
         "valoresAVencer": "250000",
-        "dataUltimaOp": 90,
+        "dataUltimaOp": "90",
         "valoresVencidos": 0
       }
     ]
-  
+  }
   
