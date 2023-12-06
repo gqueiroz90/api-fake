@@ -1,0 +1,26 @@
+{
+    "empresas": [
+      {
+        "id": 1,
+        "cnpj": "12.345.678/0001-90",
+        "cliente": true,
+        "valoresAVencer": [
+          { "id": 1, "valor": 10000, "dataVencimento": "2023-12-15" },
+          { "id": 2, "valor": 15000, "dataVencimento": "2023-12-20" }
+        ],
+        "valoresVencidos": [
+          { "id": 3, "valor": 75.25, "dataVencimento": "2023-11-30" }
+        ]
+      },
+      {
+        "id": 2,
+        "cnpj": "98.765.432/0001-21",
+        "cliente": false,
+        "valoresAVencer": [
+          { "id": 4, "valor": 200000, "dataVencimento": "2024-01-10" }
+        ],
+        "valoresVencidos": []
+      }
+    ]
+  }
+  
